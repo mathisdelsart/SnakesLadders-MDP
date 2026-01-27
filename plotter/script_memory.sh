@@ -1,7 +1,7 @@
 #!/bin/bash
 echo $PWD
-MARKOV_DAT="Results/Memory/Dat/markov_memory_results.dat"
-QLEARNING_DAT="Results/Memory/Dat/qlearning_memory_results.dat"
+MARKOV_DAT="results/memory/dat/markov_memory_results.dat"
+QLEARNING_DAT="results/memory/dat/qlearning_memory_results.dat"
 GRAPH_SCRIPT="plotter/memory_analysis.py"
 ROOT="Project1/plotter/"
 

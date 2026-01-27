@@ -1,4 +1,4 @@
-from algorithms import markovDecision
+from algorithms.MarkovDecision import markovDecision
 
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -68,7 +68,7 @@ def lineplot_strategy_expect(filename):
     expectation_matrix = pd.concat([expectation_matrix, pd.DataFrame([result_dict])], ignore_index=True)
     expectation_melted = expectation_matrix.melt(id_vars=['Strategy'], var_name='Position', value_name='Expectation')
     
-    expectation_melted['Position'] = expectation_melted['Position'].str.extract('(\d+)').astype(int) + 1
+    expectation_melted['Position'] = expectation_melted['Position'].str.extract(r'(\d+)').astype(int) + 1
     
     plt.figure(figsize=(14, 8))
     sns.set_style("whitegrid")
@@ -100,5 +100,5 @@ def lineplot_strategy_expect(filename):
 
 
 # Generate the plots
-# heatmap_strategy_expect("Results/simulations.csv")
-lineplot_strategy_expect("../Results/simu.csv")
+# heatmap_strategy_expect("results/simulations.csv")
+# lineplot_strategy_expect("results/simu.csv")

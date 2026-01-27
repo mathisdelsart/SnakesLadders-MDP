@@ -3,7 +3,7 @@ from game.BoardGame import BoardGame
 
 import numpy as np
 
-def QLearningDecision(layout, circle, epochs=10000, alpha=0.1, gamma=0.95, epsilon=0.1, display_board=False):
+def QLearningDecision(layout, circle, epochs=1000, alpha=0.1, gamma=0.95, epsilon=0.1, display_board=False):
     """
     Implements Q-learning to estimate the optimal policy with ε-greedy exploration.
     This algorithm learns the Q-values for state-action pairs through interaction with the environment.

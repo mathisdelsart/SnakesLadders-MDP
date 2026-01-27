@@ -1,0 +1,13 @@
+# Core scientific computing
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# System monitoring (for memory analysis)
+psutil>=5.8.0
+
+# Memory profiling (optional)
+memory-profiler>=0.60.0

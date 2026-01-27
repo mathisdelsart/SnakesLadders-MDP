@@ -4,17 +4,17 @@ import numpy as np
 import psutil
 import os
 
-markov_dat = "Results/Memory/Dat/markov_memory_results.dat"
-markov_csv = "Results/Memory/Csv/markov_memory_results.csv"
+markov_dat = "results/memory/dat/markov_memory_results.dat"
+markov_csv = "results/memory/csv/markov_memory_results.csv"
 
-qlearning_dat = "Results/Memory/Dat/qlearning_memory_results.dat"
-qlearning_csv = "Results/Memory/Csv/qlearning_memory_results.csv"
+qlearning_dat = "results/memory/dat/qlearning_memory_results.dat"
+qlearning_csv = "results/memory/csv/qlearning_memory_results.csv"
 
-markov_graph = "Results/Memory/Markov/markov_memory_custom.png"
-qlearning_graph = "Results/Memory/Qlearning/qlearning_memory_custom.png"
+markov_graph = "results/memory/markov/markov_memory_custom.png"
+qlearning_graph = "results/memory/qlearning/qlearning_memory_custom.png"
 
-qlearning_markov_graph = "Results/Memory/QlearningMarkov/memory_comparison.png"
-qlearning_markov_graph_log_scale = "Results/Memory/QlearningMarkov/memory_comparison_log_scale.png"
+qlearning_markov_graph = "results/memory/qlearning_markov/memory_comparison.png"
+qlearning_markov_graph_log_scale = "results/memory/qlearning_markov/memory_comparison_log_scale.png"
 
 def is_run_from_bash():
     """Check if the script is running from a Bash shell."""

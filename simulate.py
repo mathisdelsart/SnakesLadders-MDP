@@ -4,15 +4,18 @@ from game.BoardGame import BoardGame
 from simulator.BoardGameSimulator import BoardGameSimulator
 from simulator.DiceStrategy import DiceStrategy
 
+# Used to generate random layout based on density of cell's type
+# Usefull ONLY if layouts is empty (= no custom layout given)
 layouts_properties = {"Layout 1" : [0.0, 0.1, 0.05, 0.4],
                       "Layout 2" : [0.0, 0.3, 0.0, 0.0],
                       "Layout 3" : [0.0, 0.0, 0.0, 0.3],
                       "Layout 4" : [0.0, 0.1, 0.3, 0.0],
 }
 
+# Custom layouts
 layouts = [[1]*15]
 
-strategy_names = ["Optimal_MDP"]
+strategy_names = None # None = Every Strategies by default
 
 if __name__ == "__main__":
     
@@ -27,5 +30,5 @@ if __name__ == "__main__":
         board = BoardGame(layout, circle)
         dice_strategy = DiceStrategy(board, strategy_names)
         board.display_board()
-        game_simulator = BoardGameSimulator(board, dice_strategy, n_simulations=10000)
+        game_simulator = BoardGameSimulator(board, dice_strategy, n_simulations=10)
         game_simulator.compare_strategies()

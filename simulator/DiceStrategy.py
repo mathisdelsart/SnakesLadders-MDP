@@ -35,6 +35,8 @@ class DiceStrategy:
         
         if strategy_names == None:
             self.strategies = self.possible_strategies
+            self.optimal_MDP_policy = markovDecision(self.board.layout, self.board.circle)[1]
+            self.optimal_QLearning_policy = QLearningDecision(self.board.layout, self.board.circle)[1]
         else:
             self.strategies = {}
             for strategy_name in strategy_names:

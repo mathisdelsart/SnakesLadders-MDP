@@ -1,4 +1,26 @@
-myenv
-__pycache__
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+myenv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
-.vscode
+Thumbs.db
+
+# Memory profiling
+mprofile_*.dat
+
+# Jupyter
+.ipynb_checkpoints/
