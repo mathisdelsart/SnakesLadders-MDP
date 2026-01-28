@@ -185,12 +185,47 @@ snakes-ladders-mdp/
 
 ---
 
-## Academic Context
+## Authors
 
-This project was developed as part of the **LINFO2275 - Data Mining and Decision Making** course at **UCLouvain**.
+<div align="center">
 
-### Authors
+<table>
+  <tr>
+    <td width="180" align="left">
+      <img src="https://img.shields.io/badge/GitHub-mathisdelsart-black?logo=github" valign="middle"/>
+    </td>
+    <td align="left">
+      <strong>Mathis DELSART</strong>
+    </td>
+  </tr>
+  <tr>
+    <td width="180" align="left">
+      <img src="https://img.shields.io/badge/GitHub-cbousmar-black?logo=github" valign="middle"/>
+    </td>
+    <td align="left">
+      <strong>Cyril BOUSMAR</strong>
+    </td>
+  </tr>
+  <tr>
+    <td width="180" align="left">
+      <img src="https://img.shields.io/badge/GitHub-leolamien-black?logo=github" valign="middle"/>
+    </td>
+    <td align="left">
+      <strong>Sienou LAMIEN</strong>
+    </td>
+  </tr>
+</table>
 
-- Mathis Delsart
-- Cyril Bousmar
-- Sienou Lamien
+</div>
+
+## License
+
+This project is developed for academic purposes as part of university coursework.
+
+---
+
+<div align="center">
+
+**Built for LINFO2275 - Data Mining and Decision Making @ UCLouvain** (Université catholique de Louvain).
+
+</div>
